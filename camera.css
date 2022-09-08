@@ -1,0 +1,143 @@
+ PC スマホ共通スタイル
+body {
+font-family: "Noto Sans JP";
+color: #000000;
+background-color: #ffffff;
+max-width: 100%;
+margin: 0;
+}
+
+/* PC用スタイル */ */
+body {
+  max-width: 960px;
+  min-width: 768px;
+  margin-top: 31px;
+}
+
+/* bobyの余白消す */
+body {
+  padding: 0px;
+  margin: 0px;
+}
+/* ヘッダー */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 20px auto 20px auto;
+  max-width: 960px;
+}
+
+nav a {
+  width: 300px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 34px;
+  color: #000000;
+}
+
+/* navのマイプロフィールの部分 */
+.home {
+border: solid 1px #000000;
+padding: 10px 20px; 
+margin-left: 20px;
+}
+
+.home > a:link  {
+  color: #000000;
+}
+
+.home > a:hover {
+  color: #000000;
+}
+
+.home > a:visited {
+  color: #000000;
+}
+
+/* メニューの余白 */
+.menu > a {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* カメラの写真 */
+.camerapic {
+  width: 100%;
+}
+
+/* about */
+h1 {
+  text-align: center;
+  font-size: 34px;
+  padding-top: 30px;
+}
+
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* 写真 */
+.circle {
+  border-radius: 50%;
+  border: solid 1px #000000;
+  width: 160px;
+  height: 160px;
+}
+
+.profile {
+  margin-left: 33px;
+}
+
+/* 名前 */
+.name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+ul {
+  font-size: 18px;
+  padding-right: 20px;
+}
+
+/* work */
+
+#works {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: auto 80px;
+}
+
+ #works img {
+  width: 220px;
+  padding: 0 20px 0 20px;
+}
+
+p {
+  font-size: 18px;
+  width: 170px;
+  text-align: center;
+  padding: 0 20px 0 20px;
+  margin-left: 20px;
+}
+
+/* フッダー */
+footer {
+  text-align: center;
+  font-size: 18px;
+  width: 100%;
+  padding-top: 30px;
+}
+
+/* スマホ */
+@media screen and(max-width:767px) {
+  item {
+    width: 100%;
+    /* text-align: center; */
+  }
+}
